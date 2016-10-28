@@ -1,0 +1,21 @@
+--------------- Build Started: 09/30/2016 20:48:33 Project: BLE Lab 3, Configuration: ARM GCC 4.8.4 Debug ---------------
+cydsfit.exe -.appdatapath "C:\Users\Lisa Boneta\AppData\Local\Cypress Semiconductor\PSoC Creator\3.1" -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -p "C:\Users\Lisa Boneta\Desktop\Lab 3\BLE Lab 3\BLE Lab 3.cydsn\BLE Lab 3.cyprj" -d CY8C4247LQI-BL483 -s "C:\Users\Lisa Boneta\Desktop\Lab 3\BLE Lab 3\BLE Lab 3.cydsn\Generated_Source\PSoC4" -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
+Elaborating Design...
+ADD: sdb.M0012: error: Terminals "Opamp.Vplus" connected to signal "Net_1074" have mismatching types.
+ * C:\Users\Lisa Boneta\Desktop\Lab 3\BLE Lab 3\BLE Lab 3.cydsn\TopDesign\TopDesign.cysch (Signal: Net_1074)
+ * C:\Users\Lisa Boneta\Desktop\Lab 3\BLE Lab 3\BLE Lab 3.cydsn\TopDesign\TopDesign.cysch (Shape_100)
+ * C:\Users\Lisa Boneta\Desktop\Lab 3\BLE Lab 3\BLE Lab 3.cydsn\TopDesign\TopDesign.cysch (Shape_102)
+ * C:\Users\Lisa Boneta\Desktop\Lab 3\BLE Lab 3\BLE Lab 3.cydsn\TopDesign\TopDesign.cysch (cc)
+ * C:\Users\Lisa Boneta\Desktop\Lab 3\BLE Lab 3\BLE Lab 3.cydsn\TopDesign\TopDesign.cysch (Shape_34.21)
+ * C:\Users\Lisa Boneta\Desktop\Lab 3\BLE Lab 3\BLE Lab 3.cydsn\TopDesign\TopDesign.cysch (Shape_88.5)
+ * C:\Users\Lisa Boneta\Desktop\Lab 3\BLE Lab 3\BLE Lab 3.cydsn\TopDesign\TopDesign.cysch (Vplus)
+ADD: sdb.M0018: error: Multiple drivers on signal "Net_1074", bit(s) "0".
+ * C:\Users\Lisa Boneta\Desktop\Lab 3\BLE Lab 3\BLE Lab 3.cydsn\TopDesign\TopDesign.cysch (Signal: Net_1074)
+ * C:\Users\Lisa Boneta\Desktop\Lab 3\BLE Lab 3\BLE Lab 3.cydsn\TopDesign\TopDesign.cysch (Shape_100)
+ * C:\Users\Lisa Boneta\Desktop\Lab 3\BLE Lab 3\BLE Lab 3.cydsn\TopDesign\TopDesign.cysch (Shape_102)
+ * C:\Users\Lisa Boneta\Desktop\Lab 3\BLE Lab 3\BLE Lab 3.cydsn\TopDesign\TopDesign.cysch (Shape_34.21)
+ * C:\Users\Lisa Boneta\Desktop\Lab 3\BLE Lab 3\BLE Lab 3.cydsn\TopDesign\TopDesign.cysch (Shape_88.5)
+ADD: sdb.M0061: information: Info from component: ADC. The actual sample rate (150000 SPS) differs from the desired sample rate (166666 SPS) due to the clock configuration in the DWR.
+ * C:\Users\Lisa Boneta\Desktop\Lab 3\BLE Lab 3\BLE Lab 3.cydsn\TopDesign\TopDesign.cysch (Instance:ADC)
+Error: cdf.M0005: CyDsFit aborted due to errors, please address all errors and rerun CyDsFit. (App=cydsfit)
+--------------- Build Failed: 09/30/2016 20:49:06 ---------------
